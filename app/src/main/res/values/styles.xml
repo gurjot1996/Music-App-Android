@@ -1,0 +1,86 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#009688</item>
+        <item name="colorPrimaryDark">#00796B</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="textviewtheme">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textSize">17sp</item>
+
+    </style>
+
+    <style name="options">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:padding">25dp</item>
+        <item name="android:layout_marginTop">25dp</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:background">#00796B</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="songimage">
+        <item name="android:layout_height">80dp</item>
+        <item name="android:layout_width">80dp</item>
+    </style>
+
+    <style name="songnametext">
+       <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:layout_marginLeft">5dp</item>
+    </style>
+
+    <style name="singername">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:layout_marginLeft">5dp</item>
+    </style>
+    <style name="linesep">
+        <item name="android:layout_height">3dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">#616161</item>
+        <item name="android:layout_margin">15dp</item>
+    </style>
+
+    <style name="relativelayout">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+
+    <style name="generes">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:padding">20dp</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:background">#00796B</item>
+        <item name="android:textColor">#FFFFFF</item>
+
+    </style>
+    <style name="nowplaying">
+        <item name="android:layout_height">100dp</item>
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+    <style name="linearlayout">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:paddingBottom">16dp</item>
+        <item name="android:paddingLeft">64dp</item>
+        <item name="android:paddingRight">64dp</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+</resources>

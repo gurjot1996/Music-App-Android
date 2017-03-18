@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent" >
+    <LinearLayout
+        android:id="@+id/activity_allsongs"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.example.android.musicalappstructure.AllsongsActivity">
+
+        <TextView
+            style="@style/textviewtheme"
+            android:text="@string/allsongstext"/>
+
+        <RelativeLayout
+            style="@style/relativelayout"
+            >
+
+            <ImageView
+                style="@style/songimage"
+                android:id="@+id/songimage1"
+                android:src="@drawable/play"/>
+            <TextView
+                android:text="@string/song1"
+                style="@style/songnametext"
+                android:layout_toRightOf="@id/songimage1"
+                android:id="@+id/song1name"
+                />
+            <TextView
+                style="@style/relativelayout"
+                android:layout_height="80dp"
+                android:id="@+id/song1"/>
+            <TextView
+                android:text="@string/song1singer"
+                style="@style/singername"
+                android:layout_below="@id/song1name"
+                android:layout_toRightOf="@id/songimage1"
+                />
+
+        </RelativeLayout>
+        <TextView
+            style="@style/linesep" />
+
+        <RelativeLayout
+            style="@style/relativelayout"
+            >
+
+            <ImageView
+                style="@style/songimage"
+                android:id="@+id/songimage2"
+                android:src="@drawable/play"/>
+            <TextView
+                android:text="@string/song2"
+                style="@style/songnametext"
+                android:layout_toRightOf="@id/songimage2"
+                android:id="@+id/song2name"
+                />
+            <TextView
+                style="@style/relativelayout"
+                android:layout_height="80dp"
+                android:id="@+id/song2"/>
+            <TextView
+                android:text="@string/song2singer"
+                style="@style/singername"
+                android:layout_below="@id/song2name"
+                android:layout_toRightOf="@id/songimage2"
+                />
+        </RelativeLayout>
+        <TextView
+            style="@style/linesep" />
+
+        <RelativeLayout
+            style="@style/relativelayout"
+            >
+
+            <ImageView
+                style="@style/songimage"
+                android:id="@+id/songimage3"
+                android:src="@drawable/play"/>
+            <TextView
+                android:text="@string/song3"
+                style="@style/songnametext"
+                android:layout_toRightOf="@id/songimage3"
+                android:id="@+id/song3name"
+                />
+            <TextView
+                style="@style/relativelayout"
+                android:layout_height="80dp"
+                android:id="@+id/song3"/>
+            <TextView
+                android:text="@string/song3singer"
+                style="@style/singername"
+                android:layout_below="@id/song3name"
+                android:layout_toRightOf="@id/songimage3"
+                />
+        </RelativeLayout>
+        <TextView
+            style="@style/linesep" />
+
+        <RelativeLayout
+            style="@style/relativelayout"
+            >
+
+            <ImageView
+                style="@style/songimage"
+                android:id="@+id/songimage4"
+                android:src="@drawable/play"/>
+            <TextView
+                android:text="@string/song4"
+                style="@style/songnametext"
+                android:layout_toRightOf="@id/songimage4"
+                android:id="@+id/song4name"
+                />
+            <TextView
+                style="@style/relativelayout"
+                android:layout_height="80dp"
+                android:id="@+id/song4"/>
+            <TextView
+                android:text="@string/song4singer"
+                style="@style/singername"
+                android:layout_below="@id/song4name"
+                android:layout_toRightOf="@id/songimage4"
+                />
+        </RelativeLayout>
+        <TextView
+            style="@style/linesep" />
+        <RelativeLayout
+            style="@style/relativelayout"
+            >
+
+            <ImageView
+                style="@style/songimage"
+                android:id="@+id/songimage5"
+                android:src="@drawable/play"/>
+            <TextView
+                android:text="@string/song5"
+                style="@style/songnametext"
+                android:layout_toRightOf="@id/songimage5"
+                android:id="@+id/song5name"
+                />
+            <TextView
+                style="@style/relativelayout"
+                android:layout_height="80dp"
+                android:id="@+id/song5"/>
+            <TextView
+                android:text="@string/song5singer"
+                style="@style/singername"
+                android:layout_below="@id/song5name"
+                android:layout_toRightOf="@id/songimage5"
+                />
+        </RelativeLayout>
+        <TextView
+            style="@style/linesep" />
+
+        <RelativeLayout
+            style="@style/relativelayout"
+            >
+
+            <ImageView
+                style="@style/songimage"
+                android:id="@+id/songimage6"
+                android:src="@drawable/play"/>
+            <TextView
+                android:text="@string/song6"
+                style="@style/songnametext"
+                android:layout_toRightOf="@id/songimage6"
+                android:id="@+id/song6name"
+                />
+            <TextView
+                style="@style/relativelayout"
+                android:layout_height="80dp"
+                android:id="@+id/song6"/>
+            <TextView
+                android:text="@string/song6singer"
+                style="@style/singername"
+                android:layout_below="@id/song6name"
+                android:layout_toRightOf="@id/songimage6"
+                />
+        </RelativeLayout>
+        <TextView
+            style="@style/linesep" />
+
+    </LinearLayout>
+</ScrollView>

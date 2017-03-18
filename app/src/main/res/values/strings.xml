@@ -1,0 +1,33 @@
+<resources>
+
+    <string name="app_name">MusicalAppStructure</string>
+    <string name="hometext">This Activity displays the menu of different categories in a music app such as all songs,artists,playlists,genres.</string>
+    <string name="allsongstext">This Activity displays all the songs on the device any song can be clicked to play.</string>
+    <string name="song1">Mockingbird</string>
+    <string name="song1singer">Eminem</string>
+
+    <string name="song2">See You Again</string>
+    <string name="song2singer">Charlie Puth</string>
+
+    <string name="song3">Challa</string>
+    <string name="song3singer">Gurdas Maan</string>
+
+    <string name="song4">Not Afraid</string>
+    <string name="song4singer">Eminem</string>
+
+    <string name="song5">Let me love you</string>
+    <string name="song5singer">Justin Bieber</string>
+
+    <string name="song6">Closer</string>
+    <string name="song6singer">Chainsmokers</string>
+
+    <string name="dancetext">This activity shows the songs of dance genere</string>
+    <string name="poptext">This activity shows the songs of pop genere</string>
+
+    <string name="jazztext">This activity shows the songs of jazz genere</string>
+    <string name="generetext">This activity shows the songs of various generes</string>
+<string name="nowplaying">This activity consists of play,pause,next,prev buttons for playing a song displays a toast message </string>
+    <string name="playlist">This activity shows the playlist created by user</string>
+    <string name="playlist1">This activity shows the songs added in playlist1</string>
+
+</resources>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_pop"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.android.musicalappstructure.pop">
+    <TextView
+        style="@style/textviewtheme"
+        android:text="@string/poptext"/>
+    <RelativeLayout
+        style="@style/relativelayout"
+        >
+
+        <ImageView
+            style="@style/songimage"
+            android:id="@+id/songimage1"
+            android:src="@drawable/play"/>
+        <TextView
+            android:text="@string/song1"
+            style="@style/songnametext"
+            android:layout_toRightOf="@id/songimage1"
+            android:id="@+id/song1name"
+            />
+        <TextView
+            style="@style/relativelayout"
+            android:layout_height="80dp"
+            android:id="@+id/song1"/>
+        <TextView
+            android:text="@string/song1singer"
+            style="@style/singername"
+            android:layout_below="@id/song1name"
+            android:layout_toRightOf="@id/songimage1"
+            />
+
+    </RelativeLayout>
+    <TextView
+        style="@style/linesep" />
+
+    <RelativeLayout
+        style="@style/relativelayout"
+        >
+
+        <ImageView
+            style="@style/songimage"
+            android:id="@+id/songimage2"
+            android:src="@drawable/play"/>
+        <TextView
+            android:text="@string/song2"
+            style="@style/songnametext"
+            android:layout_toRightOf="@id/songimage2"
+            android:id="@+id/song2name"
+            />
+        <TextView
+            style="@style/relativelayout"
+            android:layout_height="80dp"
+            android:id="@+id/song2"/>
+        <TextView
+            android:text="@string/song2singer"
+            style="@style/singername"
+            android:layout_below="@id/song2name"
+            android:layout_toRightOf="@id/songimage2"
+            />
+    </RelativeLayout>
+    <TextView
+        style="@style/linesep" />
+
+</LinearLayout>
